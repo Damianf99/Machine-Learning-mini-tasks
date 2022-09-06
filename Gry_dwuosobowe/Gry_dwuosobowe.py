@@ -76,13 +76,19 @@ class TicTacToe( TwoPlayersGame ):
     def scoring(self):
         return -100 if self.lose() else 0
 
+#if __name__ == "__main__":
+#    inf = float("infinity")
+#    Scoring = TicTacToe.scoring
+#    ai_algo = Negamax(6) #kółko
+#    sss = SSS(4) #krzyżyk
+#    dual = DUAL(6)
+#    TicTacToe([AI_Player(ai_algo),AI_Player(sss)]).play()
+
 if __name__ == "__main__":
-    inf = float("infinity")
-    Scoring = TicTacToe.scoring
-    ai_algo = Negamax(6) #kółko
-    sss = SSS(4) #krzyżyk
-    dual = DUAL(6)
-    TicTacToe( [AI_Player(ai_algo),AI_Player(sss)]).play()
+    ai = Negamax(7) #13 ruchów w przód
+    game = LastCoin([AI_Player(ai), Human_Player()])
+    game.play()
+
 
         
 

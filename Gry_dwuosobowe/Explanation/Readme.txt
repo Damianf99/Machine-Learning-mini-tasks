@@ -1,0 +1,3 @@
+Implementation of the Last Coin Standing and Tic Tac Toe games - according to the instruction provided by the easyAI module
+
+In the Last Coin Standing game, we use a pile of coins and each player takes turns taking a certain number of coins. There is an upper and lower limit to the number of coins that can be taken from the pile. The goal of the game is to avoid taking the last coin from the pile. The example shown is a variant from the easyAI instruction. The game is played between a human and a bot.

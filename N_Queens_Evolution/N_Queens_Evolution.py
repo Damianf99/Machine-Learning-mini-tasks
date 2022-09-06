@@ -134,6 +134,6 @@ def draw_plot(gen, best_scores, mean_scores):
     plt.show()
 
 P, gen, best_scores, mean_scores = N_Queens_Evolution(8, 5, 0.9, 0.5, 1000)
-print(P)
-print(gen)
+print("Population:", P)
+print("Number of generations:", gen)
 draw_plot(gen, best_scores, mean_scores)

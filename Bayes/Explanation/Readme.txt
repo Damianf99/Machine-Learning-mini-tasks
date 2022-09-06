@@ -1,0 +1,2 @@
+Development of a Bayes classifier that performs data classification with the wine.data and iris.data files in a continuous (without data discretization) and discrete variant. Then
+comparing the results with the imported GaussianNB model.
